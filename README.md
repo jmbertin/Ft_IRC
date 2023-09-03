@@ -9,7 +9,7 @@ We needed to choose a reference client, so we chose to use Colloquy, given that 
 ----
 
 ## Features
-1. Channel Management:
+**1. Channel Management:**
 - Create and manage channels.
 - Set and retrieve channel topics.
 - Add and manage channel clients and operators.
@@ -18,33 +18,33 @@ We needed to choose a reference client, so we chose to use Colloquy, given that 
 - Set channel flags and manage channel passwords.
 - Limit the number of users in a channel.
 
-2. Client Management:
+**2. Client Management:**
 - Handle client authentication and connection.
 - Manage client buffer and process incoming messages.
 - Set and retrieve client details like nickname, username, and real name.
 - Track client message count and last message time.
 - Handle client commands and interactions with the server.
 
-3. Command Handling:
+**3. Command Handling:**
 - A comprehensive set of IRC commands including BAN, BOT, CAP, DEOP, JOIN, KICK, MODE, NICK, NOTICE, PASS, PING, PRIVMSG, QUIT, TOPIC, and more.
 - Dynamic command mapping for easy addition of new commands.
 - Command error handling and feedback.
 
-4. Server Management:
+**4. Server Management:**
 - Accept and manage client connections.
 - Handle incoming client messages and distribute them appropriately.
 - Search for clients by nickname and manage client lists.
 - Graceful shutdown of the server.
 
-5. Robust Error Handling:
+**5. Robust Error Handling:**
 - Handle various error scenarios like incorrect password, wrong port range, and data reception errors.
 - Provide meaningful error messages to the user.
 
-6. Non-blocking Sockets:
+**6. Non-blocking Sockets:**
 - Utilize non-blocking sockets for efficient communication.
 - Implement a polling mechanism to handle multiple client connections simultaneously.
 
-7. Bot option:
+**7. Bot option:**
 - Password protected
 - Delegation of KICK, BAN, MUTE...
 - Moderation of conversations (rudeness, insults, offense, etc.)
