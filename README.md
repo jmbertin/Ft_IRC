@@ -73,7 +73,7 @@ The executable Ft_IRC will be created in the root directory. Use it as described
 
 Usage
 
-``././ircserv [port] [password]``
+``./ircserv [port] [password]``
 
 You have to choose server's port and a password server when launching the program.
 
