@@ -81,5 +81,13 @@ To test the functionality, simply launch an IRC client of your choice. However, 
 
 ----
 
+**Authors are:**
+
+- [Apyre / Leo Fresnay](https://github.com/Apyre83)
+- [Julien Branchet](https://github.com/blablupo)
+- [Jean-michel Bertin](https://github.com/jmbertin)
+
+----
+
 ## Contribution
 If you encounter any bugs or wish to add features, please feel free to open an issue or submit a pull request.
